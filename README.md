@@ -7,8 +7,9 @@ This is a library for Rust apps to make reading environment variables a little e
 {
     use env_var;
 
-    // my_val will be a String parsed from the value of the environment variable, 
-    // or 42 if the variable isn't set or the value cannot be coerced to an i32
+    // my_val will be an i32 parsed from the value of the environment variable. 
+    // If the variable isn't set or the value cannot be coerced to an i32, the 
+    // default of 42 will be used.
     let my_val = env_var::get("MY_KEY").or(42_i32);
 }
 ```
