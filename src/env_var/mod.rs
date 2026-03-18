@@ -1,6 +1,6 @@
 //! Env Var Module
 //!
-//! This module provides the funtions and structs for easily interacting with the environment.
+//! This module provides the functions and structs for easily interacting with the environment.
 //! Wrapping details in this module lets consuming code more clearly disambiguate from [`mod@std::env`].
 
 use std::{
