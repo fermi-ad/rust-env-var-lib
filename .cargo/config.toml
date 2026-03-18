@@ -1,0 +1,5 @@
+[env]
+# Values to read during the tests. Will not affect any running production code.
+STRING_KEY = "STRING_VALUE"
+
+NUMERIC_KEY = "1"
