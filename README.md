@@ -2,6 +2,8 @@
 
 This is a library for Rust apps to make reading environment variables a little easier. It provides automatic parsing to a desired type, with fallbacks to a default value built into the main workflow.
 
+See the latest documentation [here](https://fermi-ad.github.io/rust-env-var-lib/rust_env_var_lib/)
+
 ### Example
 ```Rust
 use env_var;
